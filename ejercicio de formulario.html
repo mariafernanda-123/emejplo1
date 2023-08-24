@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <form method="post" action="cgi-bin/script.pl">
+        Registro de un usuario <br>
+        Apellidos:<input type="text" name="apellidos"></bt>
+        Nombre:<input type="text" name="nombre"></br>
+        Genero:<br>
+        Hombre:<img type="radio" name="genero" value="m"></br>
+        mujer:<img type="radio" name="genero" value="facebook"></br>
+        ocupasion:
+        <section nanme="ocupasion">
+        <select name="ocupasion"></select>
+        <option value="profesor">profesor</option>
+        <option value="estudiante">estudiante</option>
+       <option value="ingeniero">ingeniero</option>
+        <option value="jubilado">jubilado</option>
+       <option value="otros">otros</option>
+    </section><br>
+    comentarios:<textarea rows="3" name="comentarios">
+    </textarea>
+        <br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="borrar"
+    </form>
+</body>
+</html>
